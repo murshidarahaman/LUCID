@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+a,a:hover{
+    text-decoration: none;
+}
+
+/* header section start */
+
+.header-section{
+    width: 100%;
+    background: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center top;
+    
+
+
+}
+
+.header-section .main-menu{
+    width: 100%;
+}
+
+.header-section .main-menu .bg-light{
+    background-color: transparent !important;
+    
+}
+
+.header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+    color: #fff;
+    background: url(../images/mh.png) center bottom no-repeat;
+}
+
+.header-section .main-menu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 15px;
+    text-transform: capitalize;  
+}
+
+.header-section .main-menu .navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    background: url(../images/mh.png) center bottom no-repeat;
+    transform: scale(1.1);
+}
+
+.header-section .banner-sectiion{
+    width: 100%;
+    padding: 120px 0px;
+    
+}
+
+.header-section .banner-sectiion h6{
+    color: #10354c;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header-section .banner-sectiion h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+.header-section .banner-sectiion p{
+    color: #808081;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 30px 0px;
+}
+
+.header-section .banner-sectiion .btn-primary{
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+
+.header-section .banner-sectiion .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #008ed6;
+}
+
+.header-section .banner-sectiion .btn-secondary{
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border:1px solid grey;
+    background: transparent;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: all linear 0.3s;
+}
+
+.header-section .banner-sectiion .btn-secondary:hover{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+
+/* header section end */
+
+/* css for headings start */
+.title{
+    width: 100%;
+    padding: 50px;
+}
+
+.title h6{
+    color: #008ed6;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.title h2{
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+/* css for headings end */
+
+/* feature-section start */
+
+.features{
+    width: 100%;
+    padding-bottom: 50px;
+  
+}
+
+.features .inner-feature{
+    width: 100%;
+    padding: 20px 20px;
+    text-align: center;
+}
+.features .inner-feature .icon-box{
+    color: #008ed6;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #008ed6;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.features .inner-feature .icon-box:hover{
+    background: #008ed6;
+    color: #fff;
+
+}
+
+.features .inner-feature h4{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.features .inner-feature p{
+    color: #808081;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* feature section end */
+
+/* device section start */
+
+.device{
+    width: 100%;
+    padding: 80px 0px 50px 0px;
+    border-top: 1px solid #ddd;
+}
+
+.device .title p{
+    color: #808081;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.device .list-pera{
+    color: #000;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.device .list-pera .awesome{
+    margin-left: 10px;
+    
+}
+
+.device .list-pera .responsive{
+    margin-left: 15px;
+}
+
+.device .list-pera .retina{
+    margin-left: 15px;
+}
+
+.device .list-pera .tons{
+    margin-left: 10px;
+}
+
+
+/* device section end */
+
